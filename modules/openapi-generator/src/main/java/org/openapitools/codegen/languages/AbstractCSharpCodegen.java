@@ -202,7 +202,7 @@ public abstract class AbstractCSharpCodegen extends DefaultCodegen implements Co
         typeMapping.put("array", "List");
         typeMapping.put("list", "List");
         typeMapping.put("map", "Dictionary");
-        typeMapping.put("object", "Dictionary<string, object>");
+        typeMapping.put("object", "Object");
         typeMapping.put("UUID", "Guid?");
         typeMapping.put("URI", "string");
         typeMapping.put("AnyType", "Object");
