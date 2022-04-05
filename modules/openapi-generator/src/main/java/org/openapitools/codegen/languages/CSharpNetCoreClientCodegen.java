@@ -158,7 +158,7 @@ public class CSharpNetCoreClientCodegen extends AbstractCSharpCodegen {
         typeMapping.put("array", "List");
         typeMapping.put("list", "List");
         typeMapping.put("map", "Dictionary");
-        typeMapping.put("object", "Object");
+        typeMapping.put("object", "Dictionary<string, object>");
         typeMapping.put("UUID", "Guid");
         typeMapping.put("URI", "string");
         typeMapping.put("AnyType", "Object");
